@@ -1,0 +1,19 @@
+#To give Read, write, and execute permissions for the owner; read and write permissions for the group; read permission for others; to the IveGotRights directory:
+
+chmod 764 IveGotRights
+
+#To establish that newly created files will by default have the same permissions:
+
+vim ~/.bashrc
+
+# add the following line
+
+umask 013
+
+#files cannot have default permissions set to be executable
+
+chmod u+x filename
+
+#reset bash
+
+source ~/.bashrc

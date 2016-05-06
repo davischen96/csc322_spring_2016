@@ -1,0 +1,17 @@
+[01;31mAssignment = Lab1
+Student Login Id = dach322
+--------------------------------------------------------------------------------[0m
+dach322 6.0
+Davis Chen
+
+rename.sh:
+good job!
+
+disk.sh:
+good job!
+
+mystuff.txt
+good job!
+
+getmystuff.txt:
+good job!

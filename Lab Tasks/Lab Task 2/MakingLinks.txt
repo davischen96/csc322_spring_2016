@@ -1,0 +1,26 @@
+#Make a directory called LabTask2 off your home directory:
+
+mkdir LabTask2
+
+#Create a subdirectory called Originals
+
+cd LabTask2
+mkdir Originals
+
+#In Originals, create two files, HardStuff and SoftStuff
+
+cd Originals
+touch HardStuff
+touch SoftStuff
+
+#Off LabTask2, create a subdirectory called Links
+
+cd
+mkdir Links
+
+#In Links, create a hard link and soft link
+
+cd Links
+ln ~/LabTask2/Originals/HardStuff LinkToHardStuff
+ln -s ~/LabTask2/Originals/SoftStuff RelativeToSoftStuff
+

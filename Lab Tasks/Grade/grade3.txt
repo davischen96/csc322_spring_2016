@@ -1,0 +1,22 @@
+[01;31mAssignment = Lab3
+Student Login Id = dach322
+--------------------------------------------------------------------------------[0m
+dach322 5.8 
+Davis Chen
+
+
+file: kangaroo.c
+gcc -Wall  kangaroo.c -o kangaroo
+running program: kangaroo
+passed test case 1
+awesome job!
+passed test case 2
+
+file: scuba.c
+gcc -Wall  scuba.c -o scuba
+running program: scuba
+passed test case 1
+awesome job!
+failed test case 2
+-0.1 incorrect O2 pressure
+-0.1 incorrect O2 group

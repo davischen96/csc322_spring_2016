@@ -1,0 +1,31 @@
+[01;31mAssignment = Lab2
+Student Login Id = dach322
+--------------------------------------------------------------------------------[0m
+dach322 5.2
+Davis Chen
+
+MakingLinks.txt
+-0.1 you created the links directory in your home directory, not the LabTask2 directory.
+
+Globbing.txt
+good job
+
+Compile.txt
+good job
+
+Ticker.txt
+good job
+
+CSCCodes.txt
+head can also take a file as an argument, so no need to use cat.
+-0.1 you should use grep with -w in this case, it turns on word boundaries, meaning grep will only match whole words(or csc codes)
+
+GrepExInts.txt
+-0.1 your pattern allows multiple int definitions without commas
+like this:
+int aDog aCat;
+which is invalid.
+
+Permissions.txt
+no need to use your .bashrc
+good job!

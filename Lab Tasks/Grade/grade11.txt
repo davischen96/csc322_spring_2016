@@ -1,0 +1,12 @@
+[01;31mAssignment = Lab11
+Student Login Id = dach322
+--------------------------------------------------------------------------------[0m
+dach322 5.5
+Davis Chen
+
+file: regex.c
+gcc -Wall  regex.c -o regex
+running program: regex
+passed test case 1!
+passed test case 2!
+awesome job!

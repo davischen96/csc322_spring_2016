@@ -1,0 +1,14 @@
+[01;31mAssignment = Lab8
+Student Login Id = dach322
+--------------------------------------------------------------------------------[0m
+dach322 6.0
+Davis Chen
+
+file: matrix.c
+gcc -Wall  matrix.c -o matrix
+running program: matrix
+passed test case 1!
+passed test case 2
+passed test case 3!
+passed test case 4!
+awesome job!

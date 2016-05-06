@@ -1,0 +1,16 @@
+What is the command to create an empty file myStuff.txt (0.1%)
+	touch myStuff.txt
+
+Make a directory called LabTask1 off your home directory. What would be the complete command (0.1%)?
+	mkdir LabTask1
+
+Move myStuff.txt to the directory LabTask1. What would be the complete command (0.1%)?
+	mv myStuff.txt LabTask1
+
+Find out your:
+	user id: 		18523
+	primary group id:	15
+	names of groups:	man
+	abs path of bash:	/bin/bash
+	abs path of homedir:	/home/ugrad/dach322
+	PATH env variable:	/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/ugrad/dach322/bin

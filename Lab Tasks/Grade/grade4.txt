@@ -1,0 +1,14 @@
+[01;31mAssignment = Lab4
+Student Login Id = dach322
+--------------------------------------------------------------------------------[0m
+dach322 6.0
+Davis Chen
+
+
+file: tax.c
+gcc -Wall  tax.c -o tax
+running program: tax
+passed test case 1
+passed test case 2
+passed test case 3
+awesome job!

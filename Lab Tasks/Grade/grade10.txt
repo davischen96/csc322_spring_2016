@@ -1,0 +1,13 @@
+[01;31mAssignment = Lab10
+Student Login Id = dach322
+--------------------------------------------------------------------------------[0m
+dach322 4.6
+Davis Chen
+
+file: bestBuddies.c
+gcc -Wall  bestBuddies.c -o bestBuddies
+running program: bestBuddies
+passed test case 1!
+passed test case 2!
+-0.2 you need to check that malloc does not return a null pointer
+-0.2 in the assignment, no sentinel is used. The program should continue after an empty line is entered

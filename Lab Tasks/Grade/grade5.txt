@@ -1,0 +1,14 @@
+[01;31mAssignment = Lab5
+Student Login Id = dach322
+--------------------------------------------------------------------------------[0m
+dach322 4.9
+Davis Chen
+
+file: BitOps.c
+gcc -Wall  BitOps.c -o BitOps
+running program: BitOps
+passed test case 1!
+passed test case 2!
+passed test case 3!
+-0.1 you need to place all macro parameters in parentheses to prevent the operator precedence from doing something unexpected
+awesome job!

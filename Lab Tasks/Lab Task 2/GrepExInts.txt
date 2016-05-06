@@ -1,0 +1,13 @@
+#command
+grep -v "^/" GrepExInts | grep -E "int[ ]+([a-zA-Z][a-zA-Z$_]*[ ]*,?[ ]*)*;" > GrepExInts.txt
+
+
+#output
+    int aDog;
+int   aDog  ;
+    int BadDog;
+    int aDog,aCat;
+    int   aSpaceDog,   aSpaceCat;
+    int aDog, aBadCat;
+int internetName; // fooo
+

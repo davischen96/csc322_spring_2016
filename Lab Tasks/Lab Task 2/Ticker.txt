@@ -1,0 +1,37 @@
+# Starts Ticker 5 in the background and Ticker 7 in the foreground
+
+./Ticker 5 & ./Ticker 7
+
+# Suspend Ticker 7
+
+^Z
+# control - z
+
+# List all jobs
+
+jobs
+
+# Activate Ticker 7 in the background
+
+bg %N
+# In this case, N is the id of Ticker 7
+
+# Bring Ticker 5 into the foreground
+
+fg %N
+# N is the id of Ticker 5
+
+# Suspend Ticker 5
+
+^Z
+# control - z
+
+# Kill Ticker 5
+
+kill %N
+# N is the id number of Ticker 5
+
+# Kill Ticker 7
+
+kill %N
+# N is the id number of Ticker 7

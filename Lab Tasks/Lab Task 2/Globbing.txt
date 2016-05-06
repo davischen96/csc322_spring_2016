@@ -1,0 +1,4 @@
+#type a command that lists all files that start with an alphabetic character, contain a digit, and end with a dot followed by a lowercase character then one more character.
+
+ls .| grep -E "^[a-zA-Z].*[0-9].*\.[a-z].$"
+

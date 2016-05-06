@@ -1,0 +1,9 @@
+touch Compile.txt
+# copies Ticker.c from the website to the current directory.
+
+curl http://www.cs.miami.edu/home/wuchtys/CSC322-16S/Content/UNIXUse/MyCode/Ticker.c > Ticker.c
+
+# compiles ticker with all warnings and outputs file to Ticker
+
+gcc -Wall Ticker.c -o Ticker
+

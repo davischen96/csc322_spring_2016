@@ -1,0 +1,14 @@
+[01;31mAssignment = Lab9
+Student Login Id = dach322
+--------------------------------------------------------------------------------[0m
+dach322 5.8
+Davis Chen
+
+file: newSpecies.c
+gcc -Wall  newSpecies.c -o newSpecies
+running program: newSpecies
+passed test case 1!
+passed test case 2!
+-0.2 you did not free your allocated memory
+
+

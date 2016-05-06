@@ -1,0 +1,4 @@
+#write a pipeline command from head to tail to grep that will extract lines containing Computer Science course codes as distinct words from the 5th to 12th lines of a file.
+
+
+cat CSCCodes | head -12 | tail -8 | grep -E "C[sS][cC][0-9]{3}[^a-zA-Z0-9]"

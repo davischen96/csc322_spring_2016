@@ -1,0 +1,17 @@
+[01;31mAssignment = Lab6
+Student Login Id = dach322
+--------------------------------------------------------------------------------[0m
+dach322 5.5
+Davis Chen
+
+
+file: comments.c
+gcc -Wall  comments.c -o comments
+running program: comments
+passed test 1
+passed test 2
+passed test 3
+passed test 4
+failed test 5
+-0.5 your program extracts comments that are within quotes or mishandles quoted strings
+passed test 6

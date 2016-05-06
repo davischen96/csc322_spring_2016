@@ -1,0 +1,16 @@
+[01;31mAssignment = Lab7
+Student Login Id = dach322
+--------------------------------------------------------------------------------[0m
+dach322 5.8
+Davis Chen
+
+
+
+
+file: sort.c
+gcc -Wall  sort.c -o sort
+warning: implicit declaration of function ‘getpid’
+-0.2 please compile with gcc -Wall and fix all errors and warnings before submission
+running program: sort
+passed test case!
+awesome job!
