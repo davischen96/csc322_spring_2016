@@ -1,0 +1,47 @@
+11/1
+
+
+Question
+
+Write a makefile for the following program: (2.5%)
+boolean.h - A boolean type
+mystrings.h - A string type header
+mystrings.c - A string type implementation
+Person.h - Person type header
+Person.c - Person type implementation
+NameAge.c - The NameAge program
+
+
+
+
+
+11/2
+
+
+
+Question
+
+Write a program that
+Reads in a string and a regular expression
+Splits the string into sentences
+For each sentence
+Outputs the sentence
+Prints either "Yes" or "No" depending on whether the regular expression occurs in the sentence.
+Splits the sentence into words, and outputs the number of words in the sentence
+Assume that sentences are terminated by one of .!?, and that words are space separated. You will need to, and must, use strtok_r for spliting the strings.
+Example run:
+
+Please enter the string to analyse
+abba and a bee. aah mama mia. there we go again. in the city of miami.
+Please enter the regular expression : a[bm].*[ai]
+abba and a bee
+Yes   4 words
+aah mama mia
+Yes   3 words
+there we go again
+No    4 words
+in the city of miami
+Yes   5 words
+You must ...
+
+Write the program (3%)
